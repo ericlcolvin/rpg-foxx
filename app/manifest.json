@@ -1,0 +1,16 @@
+{
+    "name": "RPG",
+    "version": "0.1.0",
+    "description": "RPG",
+    "engines": {
+        "arangodb": "^3.0.0"
+    },
+    "author": "Eric Colvin",
+    "license": "Something",
+    "main": "main.js",
+    "scripts": {
+        "setup": "scripts/setup.js",
+        "teardown": "scripts/teardown.js"
+    },
+    "tests": "test/**/*.js"
+}
